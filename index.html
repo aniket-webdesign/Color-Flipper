@@ -5,23 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practice Page</title>
+    <link rel="icon" type="image/jpg" sizes="48*48" href="./img/icon-6.jpg">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Vampiro+One&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <nav>
         <h1>Color Flipper</h1>
         <ul id="nav-links">
-            <li><a>Simple</a></li>
+            <li><a href="#">Simple</a></li>
+            <li><a href="#">Hex</a></li>
         </ul>
     </nav>
     <main>
         <section class="container">
-            <h3>Background color :<span id="color-name"> #f5f7fa</span></h3>
-            <button id="change-background" onclick="func()">Click Me</button>
+            <h3>Background Color :</h3>
+            <span id="color-name">#f5f7fa</span>
         </section>
+        <button id="change-background" onclick="func()">Click Me</button>
     </main>
+
     <script src="simple.js"></script>
 </body>
 
